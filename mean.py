@@ -9,6 +9,7 @@ for num in open('data.txt'):
 	sum +=float(num)
 	n +=1
 
+print "This has got to be wrong:"
 print sum/n
 
 
