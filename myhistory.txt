@@ -1,53 +1,24 @@
-    1  which git
-    2  git config --global user.name "Nitya Pandalai Nayar"
-    3  git config global user.email nitya.nayar@gmail.com
-    4  git config --global user.email nitya.nayar@gmail.com
-    5  nano
-    6  nano mean.py
-    7  pwd
-    8  cd Documents
-    9  cd ComputingWorkshop/
-   10  clear
-   11  nano data.txt
-   12  clear
-   13  cat data.txt
-   14  cat data.txt| python mean.py
-   15  nano mean.py
-   16  clear
-   17  cat data.txt|python mean.py
-   18  nano mean.py
-   19  cat data.txt|python mean.py
-   20  nano data.txt
-   21  cat data.txt|python mean.py
-   22  mkdir project-NPN
+    1  cd Documents
+    2  cd ComputingWorkshop/
+    3  cd project-NPN/
+    4  git status
+    5  git log
+    6  git status
+    7  git checkout master
+    8  nano mean.py
+    9  git commit -am "Changed variable name to number line"
+   10  git branch
+   11  git merge new_change 
+   12  nano mean.py
+   13  git add mean.py
+   14  git status
+   15  git commit
+   16  git config --global core.editor nano
+   17  git status
+   18  git push
+   19  git branch
+   20  git checkout -d new_change
+   21  git branch -d new_change
+   22  git branch
    23  ls
-   24  mv data.txt project-NPN/
-   25  mv mean.py project-NPN/
-   26  ls
-   27  cd project-NPN/
-   28  ls
-   29  git init
-   30  git add mean.py
-   31  git add data.txt
-   32  history >myhistory.txt
-   33  #hello
-   34  #this is a comment
-   35  git commit -am "Add initial files to project"
-   36  git log
-   37  nano mean.py
-   38  cat mean.py
-   39  git diff
-   40  git config --global color.diff autho
-   41  git config --global color.diff auto
-   42  git status
-   43  git commit -am "Add a comment"
-   44  git log
-   45  ls
-   46  nano data.txt
-   47  git status
-   48  git commit -am "Changed data to be summed"
-   49  git log
-   50  git diff
-   51  #check difference between two snapshots
-   52  git diff 58fb 63de
-   53  history >myhistory.txt
+   24  history > myhistory.txt
