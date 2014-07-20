@@ -5,8 +5,8 @@ n=0
 
 #Trying something new
 #Sum input values
-for num in open('data.txt'):
-	sum +=float(num)
+for number in open('data.txt'):
+	sum +=float(number)
 	n +=1
 
 print "This has got to be wrong:"
